@@ -7,3 +7,9 @@ body {
   overflow: hidden;
   background-color: #def1fa;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

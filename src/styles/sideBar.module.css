@@ -1,9 +1,23 @@
-.contanier {
-  width: 20%;
+.hide {
+  position: absolute;
+  transform: translateX(-300px);
+  transition: 0.4s;
+}
+
+.show {
+  margin: 0;
+  position: absolute;
+  width: 45%;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  transform: translateX(0px);
+  transition: 0.4s;
+  z-index: 10;
+  background-color: #01012b;
+  padding: 5px 30px;
+  color: white;
 }
 
 .listItem {
@@ -13,8 +27,21 @@
 }
 
 .Ul {
+  list-style: none;
+  margin-top: 20vh;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.Ul > li {
+  margin: 10px 0;
+  padding: 10px 50%;
+  cursor: pointer;
+}
+
+.Ul > li:hover {
+  background-color: crimson;
 }

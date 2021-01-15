@@ -11,6 +11,7 @@
   width: 50px;
   margin: 20px 10%;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 .nav {
@@ -42,6 +43,9 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.outerCon {
+  overflow: hidden;
+}
 .weatherIcon {
   width: 180px;
   height: 180px;
@@ -49,4 +53,12 @@
   position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.icon2 {
+  width: 50px;
+  margin: 20px 10%;
+  cursor: pointer;
+  transform: translateX(38vw);
+  transition: 0.4s;
 }
